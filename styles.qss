@@ -1,0 +1,98 @@
+/* ==============================
+   √ÀŒ¡¿À‹Õ€≈ Õ¿—“–Œ… »
+================================ */
+
+
+QMainWindow {
+    background-color: #0C0016;
+}
+
+QDialog {
+    background-color: #0C0016;
+}
+
+QWidget#centralWidget {
+    background-image: url(:/MainWindow/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ==============================
+   Õ¿¬»√¿÷»ﬂ —À≈¬¿
+================================ */
+QPushButton {
+    color: #C9A9FF;
+    background: transparent;
+    border: none;
+    padding: 14px 20px;
+    text-align: left;
+}
+
+QPushButton:hover {
+    background-color: rgba(160, 90, 255, 40);
+}
+
+QPushButton[selected="true"] {
+    background-color: rgba(170, 100, 255, 80);
+    color: #FFFFFF;
+}
+
+/* ==============================
+   «¿√ŒÀŒ¬ »
+================================ */
+QLabel {
+    color: #E6D6FF;
+}
+
+/* ==============================
+    ¿–“Œ◊ ¿ (FRAME)
+================================ */
+QFrame#tableFrame {
+    background-color: rgba(18, 0, 34, 210);
+    border-radius: 18px;
+}
+
+/* ==============================
+   “¿¡À»÷¿
+================================ */
+QTableView {
+    background-color: transparent;
+    border: none;
+    gridline-color: #553383;
+    color: #E2D3FF;
+    selection-background-color: rgba(160, 90, 255, 120);
+    selection-color: #FFFFFF;
+}
+
+QTableView::item {
+    padding: 10px;
+}
+
+QHeaderView::section {
+    background-color: rgba(60, 10, 100, 200);
+    color: #F0E6FF;
+    padding: 12px;
+    border: none;
+    border-right: 1px solid #553383;
+    font-weight: 600;
+}
+
+QTableCornerButton::section {
+    background-color: rgba(60, 10, 100, 200);
+    border: none;
+}
+
+/* ==============================
+   INPUT / œŒ»— 
+================================ */
+QLineEdit {
+    background-color: rgba(30, 5, 60, 180);
+    border-radius: 12px;
+    padding: 10px;
+    color: #EADFFF;
+    border: 1px solid rgba(150, 90, 255, 80);
+}
+
+QLineEdit:focus {
+    border: 1px solid rgba(190, 130, 255, 160);
+}

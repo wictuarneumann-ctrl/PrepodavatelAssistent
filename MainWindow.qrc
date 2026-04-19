@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/MainWindow">
+        <file>styles/styles.qss</file>
+        <file>fonts/ladiosa.ttf</file>
+    </qresource>
+</RCC>
